@@ -27,3 +27,5 @@ v1.0.9:
 v1.0.10:
     - 'Updated table markandmedia_supporttickets_tickets'
     - builder_table_update_markandmedia_supporttickets_tickets_6.php
+v1.0.11:
+    - 'Algemene naam voor de plugin'
