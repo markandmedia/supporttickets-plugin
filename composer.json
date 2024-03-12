@@ -1,0 +1,8 @@
+{
+    "name": "markandmedia/supporttickets-plugin",
+    "type": "supporttickets-plugin",
+    "description": "Een simpele plugin om de verschillende verzoeken van klanten bij te houden en af te handelen",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
