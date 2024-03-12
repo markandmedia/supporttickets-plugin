@@ -10,7 +10,7 @@ permissions:
         label: 'Markand Tickets'
 navigation:
     main-menu-item:
-        label: 'Stoffenshop ToDo'
+        label: 'Markand Tickets'
         url: markandmedia/supporttickets/ticket
         icon: icon-life-bouy
         permissions:
