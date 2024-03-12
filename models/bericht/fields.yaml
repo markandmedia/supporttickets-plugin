@@ -1,0 +1,19 @@
+fields:
+    bericht:
+        label: Bericht
+        size: huge
+        span: full
+        type: richeditor
+    bestanden:
+        label: 'Bestand uploader'
+        mode: image
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        imageWidth: '300'
+        imageHeight: '300'
+        type: fileupload
+        commentAbove: 'Voeg hier een screenshot of ander bestand toe'
+        tab: 'Omschrijving ticket'

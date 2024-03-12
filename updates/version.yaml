@@ -1,0 +1,29 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table markandmedia_supporttickets_tickets'
+    - builder_table_create_markandmedia_supporttickets_tickets.php
+v1.0.3:
+    - 'Created table markandmedia_supporttickets_status'
+    - builder_table_create_markandmedia_supporttickets_status.php
+v1.0.4:
+    - 'Created table markandmedia_supporttickets_bericht'
+    - builder_table_create_markandmedia_supporttickets_bericht.php
+v1.0.5:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets.php
+v1.0.6:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets_2.php
+v1.0.7:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets_3.php
+v1.0.8:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets_4.php
+v1.0.9:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets_5.php
+v1.0.10:
+    - 'Updated table markandmedia_supporttickets_tickets'
+    - builder_table_update_markandmedia_supporttickets_tickets_6.php

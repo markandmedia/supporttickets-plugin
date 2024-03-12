@@ -1,0 +1,16 @@
+title: Ticket
+modelClass: Markandmedia\SupportTickets\Models\Ticket
+list: $/markandmedia/supporttickets/models/ticket/columns.yaml
+recordUrl: 'markandmedia/supporttickets/ticket/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: false
+defaultSort:
+    column: urgentie
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+filter: config_filter.yaml

@@ -1,0 +1,77 @@
+tabs:
+    fields:
+        omschrijving_ticket:
+            label: Omschrijving
+            size: giant
+            span: left
+            type: richeditor
+            tab: Omschrijving
+        type:
+            label: 'Soort ToDo'
+            options:
+                algemeen: algemeen
+                website: website
+                seo: seo
+                technisch: technisch
+            emptyOption: 'Maak een keuze'
+            showSearch: true
+            span: right
+            type: dropdown
+            tab: Omschrijving
+        bestanden:
+            label: 'Bestand uploader'
+            mode: image
+            useCaption: 0
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: right
+            imageWidth: '300'
+            imageHeight: '300'
+            type: fileupload
+            commentAbove: 'Voeg hier een screenshot of ander bestand toe'
+            tab: Omschrijving
+        gesloten:
+            label: 'Ticket afgerond'
+            span: right
+            type: switch
+            tab: Omschrijving
+        bericht:
+            label: Berichten
+            type: partial
+            span: full
+            tab: Omschrijving
+        backend_users:
+            label: 'Aangemaakt door'
+            commentAbove: 'dit gaat automatisch, maar kan hier worden overschreven'
+            span: auto
+            tab: Admin
+            type: relation
+            nameFrom: first_name
+fields:
+    onderwerp:
+        label: Onderwerp
+        span: auto
+        type: text
+    status:
+        label: 'Status, wie moet hiervoor actie ondernemen'
+        span: auto
+        showSearch: true
+        type: dropdown
+        emptyOption: 'Maak een keuze'
+        options:
+            Mark: 'actie voor Mark'
+            Eva: 'actie voor Eva'
+            Mike: 'actie voor Mike'
+            Fred: 'actie voor Fred'
+            'Afgerond ter beoordeling': 'Afgerond ter beoordeling'
+            Iedereen: Iedereen
+    urgentie:
+        label: Urgentie
+        span: auto
+        showSearch: 0
+        options:
+            1: laag
+            2: normaal
+            3: hoog
+        type: dropdown

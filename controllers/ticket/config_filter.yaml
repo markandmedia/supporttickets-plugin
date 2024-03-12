@@ -1,0 +1,56 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+  backend_users:
+    # Filter name
+    label: Aangemaakt door
+
+    # Model Class name
+    modelClass: Backend\Models\User
+
+    # Model attribute to display for the name
+    nameFrom: first_name
+
+    # Apply query conditions
+    conditions: backend_users_id in (:filtered)
+
+  status:
+    label: Voor wie
+    type: group
+    conditions: status in (:value)
+    options:
+        Mark: actie voor Mark
+        Eva: actie voor Eva
+        Mike: 'actie voor Mike'
+        Fred: 'actie voor Fred'
+        Open: open
+
+  gesloten:
+    use: 'gesloten'
+    label: "Verberg gesloten ToDo's"
+    type: checkbox
+    default: 1
+    conditions: gesloten <> true
+
+#   archief_uit:
+#     use: 'archief'
+#     label: 'Toon archief'
+#     type: checkbox
+#     conditions: archief = true
+#
+#   wachtlijst:
+#     use: 'wachtlijst'
+#     label: 'Verberg wachtlijst'
+#     type: checkbox
+#     default: 1
+#     conditions: wachtlijst <> true
+#
+#   wachtlijst_uit:
+#     use: 'wachtlijst'
+#     label: 'Toon wachtlijst'
+#     type: checkbox
+#     conditions: wachtlijst = true
+

@@ -1,0 +1,11 @@
+name: Ticket
+modelClass: Markandmedia\SupportTickets\Models\Ticket
+form: $/markandmedia/supporttickets/models/ticket/fields.yaml
+defaultRedirect: markandmedia/supporttickets/ticket
+create:
+    redirect: 'markandmedia/supporttickets/ticket/update/:id'
+    redirectClose: markandmedia/supporttickets/ticket
+update:
+    redirect: markandmedia/supporttickets/ticket
+    redirectClose: markandmedia/supporttickets/ticket
+preview: {  }

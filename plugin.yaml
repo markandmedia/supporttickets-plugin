@@ -1,0 +1,25 @@
+plugin:
+    name: 'markandmedia.supporttickets::lang.plugin.name'
+    description: 'markandmedia.supporttickets::lang.plugin.description'
+    author: markandmedia
+    icon: oc-icon-exclamation
+    homepage: ''
+permissions:
+    markand_tickets:
+        tab: 'Markand Tickets'
+        label: 'Markand Tickets'
+navigation:
+    main-menu-item:
+        label: 'Stoffenshop ToDo'
+        url: markandmedia/supporttickets/ticket
+        icon: icon-life-bouy
+        permissions:
+            - markand_tickets
+        order: '1'
+        sideMenu:
+            side-menu-item:
+                label: ToDo items
+                url: markandmedia/supporttickets/ticket
+                icon: icon-ticket
+                permissions:
+                    - markand_tickets

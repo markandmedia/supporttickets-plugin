@@ -1,0 +1,17 @@
+bericht:
+    label: "Berichten"
+    view:
+        list: ~/plugins/markandmedia/supporttickets/models/bericht/columns.yaml
+        toolbarButtons: create
+        showSorting: false
+        showCheckboxes: false
+        showSearch: true
+        searchMode: exact
+        defaultSort:
+            column: created_at
+            direction: desc
+    manage:
+        form: ~/plugins/markandmedia/supporttickets/models/bericht/fields.yaml
+        recordsPerPage: 60
+    customMessages:
+        buttonCreate: Voeg een nieuwe opmerking toe

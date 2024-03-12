@@ -1,0 +1,14 @@
+columns:
+    bericht:
+        label: Bericht
+        type: summary
+        limitChars: 180
+        endChars: "..."
+        searchable: true
+    backend_users:
+        label: aangemaakt door
+        select: first_name
+        relation: backend_users
+    created_at:
+        label: aangemaakt op
+        type: datetime

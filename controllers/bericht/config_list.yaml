@@ -1,0 +1,15 @@
+title: Bericht
+modelClass: Markandmedia\SupportTickets\Models\Bericht
+list: $/markandmedia/supporttickets/models/bericht/columns.yaml
+recordUrl: 'markandmedia/supporttickets/bericht/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: '200'
+showSetup: true
+showCheckboxes: false
+defaultSort:
+    column: updated_at
+    direction: desc
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

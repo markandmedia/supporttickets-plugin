@@ -1,0 +1,44 @@
+columns:
+    id:
+        label: 'ToDo nummer'
+        type: number
+        sortable: true
+    urgentie:
+        label: Urgentie
+        type: partial
+        sortable: true
+        valueFrom: urgentie
+        path: $/markandmedia/supporttickets/views/_urgentie.htm
+    onderwerp:
+        label: onderwerp
+        type: text
+        searchable: true
+        sortable: true
+    status:
+        label: 'voor wie'
+        type: text
+        searchable: true
+        sortable: true
+    backend_users:
+        label: 'aangemaakt door'
+        type: text
+        searchable: true
+        sortable: true
+        select: first_name
+        relation: backend_users
+    type:
+        label: type
+        type: text
+        sortable: true
+    gesloten:
+        label: gesloten
+        type: switch
+        sortable: true
+    created_at:
+        label: 'aangemaakt op'
+        type: datetime
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true

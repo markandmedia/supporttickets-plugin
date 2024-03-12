@@ -1,0 +1,10 @@
+name: Bericht
+form: $/markandmedia/supporttickets/models/bericht/fields.yaml
+modelClass: Markandmedia\SupportTickets\Models\Bericht
+defaultRedirect: markandmedia/supporttickets/bericht
+create:
+    redirect: 'markandmedia/supporttickets/bericht/update/:id'
+    redirectClose: markandmedia/supporttickets/bericht
+update:
+    redirect: markandmedia/supporttickets/bericht
+    redirectClose: markandmedia/supporttickets/bericht
